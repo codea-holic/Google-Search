@@ -75,6 +75,12 @@ nav button {
     text-align: center;
 }
 
+.image-google {
+    width: 270px;
+    height: 92px;
+
+}
+
 .s-box .s-input {
     display: block;
     border: 1px solid #ddd;
