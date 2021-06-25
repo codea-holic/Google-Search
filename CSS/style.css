@@ -43,7 +43,9 @@ nav img {
 }
 
 nav img:hover {
-    opacity: 0.8;
+    opacity: 1;
+    border: 1px solid #ddd;
+    border-radius: 100%;
 }
 
 nav button {
@@ -55,6 +57,15 @@ nav button {
     padding: 7px 12px;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.adv-text {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    margin-left: 44px;
+    font-family: sans-serif;
+    font-size: large;
+    color: red;
 }
 
 .section-1 {
@@ -149,7 +160,7 @@ nav button {
     font-size: 13px;
     color: #111;
 }
-
+ 
 .lang a {
     margin-left: 5px;
     color: #1a0dab;
@@ -157,6 +168,65 @@ nav button {
 
 .lang a:hover {
     text-decoration: underline;
+}   
+
+/* Advanced Page styling */
+.top-label {
+    text-align: left;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    min-width: 167px;
+    /* width: 16%; */
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle
+}
+
+.adv-table {
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.ip-label {
+    font: small sans-serif;
+    color: #222;
+}
+.ip-box {
+    width: 584px;
+    height: 28px;
+    outline-color: #144aa2f6;
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+
+}
+
+td {
+    padding: 10px;
+}
+
+.adv-btn {
+    border: 1px solid #2e62b6;
+    outline: none;
+    background: #4286f4f6;
+    color: #fff;
+    font-weight: bold;
+    width: auto;
+    height: 28px;
+    margin: 10px;
+    padding: 0px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.adv-btn:hover {
+    background: #4285f4;
+    border: 1px solid #204b90;
 }
 
 footer {
